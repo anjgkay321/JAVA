@@ -55,6 +55,7 @@ public class C04자료형 {
 		//doblue : 8byte 실수(15-18자리),기본자료형
 		
 		//정밀도 확인
+		/*
 		float n1 = 0.123456789123456789F; //f,F:float형 접미사
 		double n2 = 0.123456789123456789;
 		
@@ -67,7 +68,7 @@ public class C04자료형 {
 				System.out.println(i);
 		}
 		System.out.println("num : "  + num);
-		
+		*/
 		//--------------------
 		//단일문자 char 2byte 정수
 		//--------------------
@@ -88,7 +89,7 @@ public class C04자료형 {
 //		System.out.println((char)ch4);
 //		System.out.println(ch4); // 011000011
 		
-//		char ch5  = 0xac00;
+//		char ch5  = 0xac93;
 //		char ch6 = 44032;
 //		
 //		System.out.println(ch5);
@@ -97,13 +98,13 @@ public class C04자료형 {
 		 
 //		char ch6 = 0xac00+1;
 //		System.out.printf("%c %c\n", ch5,ch6);
-//		
-//		// \\u :유니코드값 이스케이프문자
+//	
+//		   \\u :유니코드값 이스케이프문자를 사용할때 쓴다 
 //		System.out.printf("%c\n", '\uACa1');
-		
+//		
 //		System.out.printf("TEST : %c\n", '\uabcd');
-		
-		
+//		
+//		
 //		char n = 10;
 //		System.out.printf("HELLO %c WORLD", n);
 		
@@ -134,15 +135,15 @@ public class C04자료형 {
 		//boolean : 논리형(true/false 저장)
 		//--------------------
 		
-//		boolean flag = (10>11); 	// 참(긍정)
-//		if(flag) 
-//		{
-//			System.out.println("참인경우 실행");
-//		}
-//		else 
-//		{
-//			System.out.println("거짓인경우 실행");
-//		}
+		boolean flag = (14>11); 	// 참(긍정)
+		if(flag) 
+		{
+			System.out.println("참인경우 실행");
+		}
+		else 
+		{
+			System.out.println("거짓인경우 실행");
+		}
 		
 	}
 
