@@ -23,18 +23,18 @@
 
 	확인문제2
 	
-	
+	          
 	맞는 코드인지 틀린 코드인지 확인 
-	byte var = 200;							( x	)
-	char var='AB';							( o )
+	byte var = 200;							( x	) byte var = (byte)200;	 넣을순 있으나 형변환이나 데이터가 피해입음
+	char var='AB';							( x ) 단어 하나만 가능
 	char var=65;							( o )
 	long var=50000000000;					( x )	
-	float var = 3.14						( o	)
+	float var = 3.14						( o	) float var = 3.14f	접미사 f 가 없음
 	double var = 100.0						( o )
-	String var = "나의직업은 "개발자" 입니다.";	( o )
+	String var = "나의직업은 "개발자" 입니다.";	( x )"   "개발자"  " 겹따운표 안에 겹따운표를 넣을려면 "나의직업은 \"개발자"\ 입니다." \\ 안에 넣어야한다
 	boolean var = 0;						( x )
-	int v2 = 1e2;							( o	)
-	float =1e2f;							( o )
+	int v2 = 1e2;							( X	)  double 형이다
+	float =1e2f;							( X )  변수지정안함
 	
 	
 	
