@@ -21,7 +21,6 @@ public class C12RestRequestResponseMain {
 
 		// HttpRequest 객체 생성
 		HttpRequest httpRequest = HttpRequest.newBuilder().uri(URI.create(url)).GET().build();
-
 		// HttpClient 객체 생성
 		HttpClient httpClient = HttpClient.newHttpClient();
 
