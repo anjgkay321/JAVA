@@ -1,4 +1,4 @@
-package Test;
+package ex;
 
 public class BookDTO {
 	private Long bookCode;
