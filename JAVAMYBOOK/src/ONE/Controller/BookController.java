@@ -3,8 +3,7 @@ package ONE.Controller;
 import java.util.HashMap;
 import java.util.Map;
 
-import Ch38.Domain.Dto.BookDto;
-import Ch38.Domain.Service.BookServiceImpl;
+
 import ONE.Domain.BookDTO;
 import ONE.Service.BookService;
 
@@ -67,6 +66,7 @@ public class BookController implements SubController {
 			case 2: // R - 도서조회(ROLE - 회원,사서,관리자)
 				break;
 			case 3:// C - 도서수정(ROLE - 회원,사서,관리자)
+				
 				break;
 			case 4:// D - 도서삭제(ROLE - 회원,사서,관리자)
 				break;
@@ -87,13 +87,7 @@ public class BookController implements SubController {
 
 	// 유효성 검사
 	private boolean isValid(BookDTO bookDto) {
-//		String bookCodeStr = String.valueOf(bookDto.getBook_Code());
-//
-////		if (bookDto.getBook_Code() == 0 || bookCodeStr.length() < 2) {
-////			response.put("error", "[INVALID] BookCode의 길이는 최소 8자 이어야 합니다");
-////			System.out.println("[INVALID] BookCode의 길이는 최소 8자 이어야 합니다");
-////			return false;
-////		}
+
 
 		return true;
 	}
