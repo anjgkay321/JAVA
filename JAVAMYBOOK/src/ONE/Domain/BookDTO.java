@@ -6,25 +6,29 @@ public class BookDTO {
 	private String book_author;
 	private String book_name;
 	private String publisher;
-	private int isreservel;
+	private int isreserve;
+	public BookDTO () {
+	
+	}
 	//생성자
 	public BookDTO(int book_Code, int classification_id, String book_author, String book_name, String publisher,
-			int isreservel) {
+			int isreserve) {
 		super();
 		this.book_Code = book_Code;
 		Classification_id = classification_id;
 		this.book_author = book_author;
 		this.book_name = book_name;
 		this.publisher = publisher;
-		this.isreservel = isreservel;
+		this.isreserve = isreserve;
 	}
 	//toString
 	@Override
 	public String toString() {
 		return "BookDTO [book_Code=" + book_Code + ", Classification_id=" + Classification_id + ", book_author="
-				+ book_author + ", book_name=" + book_name + ", publisher=" + publisher + ", isreservel=" + isreservel
+				+ book_author + ", book_name=" + book_name + ", publisher=" + publisher + ", isreserve=" + isreserve
 				+ "]";
 	}
+
 	//getter setter
 	public int getBook_Code() {
 		return book_Code;
@@ -56,11 +60,12 @@ public class BookDTO {
 	public void setPublisher(String publisher) {
 		this.publisher = publisher;
 	}
-	public int getIsreservel() {
-		return isreservel;
+	public int getIsreserve() {
+		return isreserve;
 	}
-	public void setIsreservel(int isreservel) {
-		this.isreservel = isreservel;
+	public void setIsreserve(int isreserve) {
+		this.isreserve = isreserve;
 	}
-	
+
+
 }
